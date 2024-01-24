@@ -1,0 +1,135 @@
+#about{
+    background: url(../images/section-2.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.about__desc{
+    padding-top:140px ;
+    justify-content: center;
+}
+
+.about__desc__text{
+    color: #57B8FF;
+        text-align: center;
+        font-family: Orbitron;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 16px;
+        text-transform: uppercase;
+}
+
+.about__title{
+    margin: 22px auto 40px;
+    color: #FFF;
+    text-align: center;
+    max-width: 716px;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 74px;
+    text-transform: capitalize;
+}
+
+.about__text{
+    color: rgba(223, 223, 223, 0.80);
+    text-align: center;
+    margin: 0 auto;
+    max-width:698px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.about__cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 70px;
+    margin-top: 70px;
+    padding-bottom: 70px;
+}
+.about__card{
+    width: 46%;
+    display: flex;
+    align-items: start;
+    padding: 30px 35px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.15);
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.card__title{
+    color: #FFF;
+    max-width: 365.083px;;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+    text-transform: capitalize;
+}
+.card__text{
+    color: rgba(223, 223, 223, 0.80);
+    font-size: 18px;
+    max-width: 515.282px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.about__card:hover{
+    opacity: 1;
+    border: 1px solid rgb(107, 107, 107)smoke
+}
+
+
+
+@media(max-width:1050px){
+    
+    .about__card{
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+@media(max-width:700px){
+    .about__card {
+            padding: 20px 25px;
+        }
+    .about__title {
+        font-size: 56px;
+    }
+    .about__text{
+        font-size: 16px;
+    }
+    .card__title{
+        font-size: 24px;
+    }
+    .card__text{
+        font-size: 14px;
+    }
+}
+
+@media(max-width:700px) {
+    .about__card{
+        padding: 10px 15px;
+    }
+
+    .about__title {
+        font-size: 40px;
+    }
+
+    .about__text {
+        font-size: 12px;
+    }
+
+    .card__title {
+        font-size: 18px;
+    }
+
+    .card__text {
+        font-size: 10px;
+    }
+}

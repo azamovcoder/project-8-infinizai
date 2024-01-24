@@ -1,0 +1,61 @@
+#comunity{
+    background: url(../images/com-back.png) no-repeat;
+    background-size: cover;
+    padding-bottom: 50px;
+
+}
+.comunity__title{
+    max-width: 746px;
+    margin: 0 auto;
+    padding-top: 100px;
+    color: #141820;
+    text-align: center;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 82px;
+}
+.comunity__desc{
+    padding-top: 100px;
+    margin: 0 auto;
+    max-width: 846px;
+    color: #555;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+.comunity__btns{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+.search_btn{
+    border: 1px solid #CCC;
+    background: #FFF;
+    color: #555;
+    padding: 21px 220px 21px 13px;
+    text-align: center;
+    font-family: Orbitron;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+.subscribe_btn{
+    color: #FFF;
+    text-align: center;
+    font-family: Orbitron;
+    padding: 21px 8px 21px 13px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    background: #57B8FF;
+    border:none;
+}
+
+.light #comunity{
+    background: #FFF;
+}
